@@ -149,7 +149,10 @@
     z-index: 50;
     background: rgba(255, 255, 255, 0.7);
     .border-radius(@box-border-radius);
-    > .fa {
+        > .fa,
+  	  > .fas,
+	  > .fal,
+	  > .far, {
       position: absolute;
       top: 50%;
       left: 50%;
@@ -188,7 +191,10 @@
   }
 
   //Icons and box title
-  > .fa,
+      > .fa,
+  	  > .fas,
+	  > .fal,
+	  > .far,
   > .glyphicon,
   > .ion,
   .box-title {
@@ -197,7 +203,10 @@
     margin: 0;
     line-height: 1;
   }
-  > .fa,
+      > .fa,
+  	  > .fas,
+	  > .fal,
+	  > .far,
   > .glyphicon,
   > .ion {
     margin-right: 5px;
@@ -366,7 +375,10 @@
       float: right;
       color: @red;
       // icons
-      > .fa, > .glyphicon, > .ion {
+      > .fa,
+  	  > .fas,
+	  > .fal,
+	  > .far, > .glyphicon, > .ion {
         margin-right: 5px;
         cursor: pointer;
       }
